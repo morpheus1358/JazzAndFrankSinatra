@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jazz Lounges</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Frank Sinatra</a>
+    <a href="jazz-lounges.html">Jazz Lounges</a>
+  </div>
+
+  <div class="container">
+    <h1>Famous Jazz Lounges</h1>
+    
+    <div class="lounge">
+      <img src="images/birdland.jpg" alt="Birdland" class="lounge-img">
+      <h2>
+        <a href="https://www.birdlandjazz.com" target="_blank" class="lounge-link">Birdland (New York, USA)</a>
+      </h2>
+      <p>
+        Known as the "Jazz Corner of the World," Birdland opened its doors in 1949 and quickly became a hub for jazz legends such as Charlie Parker,
+        Miles Davis, and John Coltrane. Its intimate setting and acoustic perfection make it one of the most cherished venues for jazz lovers worldwide.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.birdlandjazz.com" target="_blank" class="lounge-link">birdlandjazz.com</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/smalls.jpg" alt="Smalls Jazz Club" class="lounge-img">
+      <h2>
+        <a href="https://www.smallslive.com" target="_blank" class="lounge-link">Smalls Jazz Club (New York, USA)</a>
+      </h2>
+      <p>
+        Nestled in Greenwich Village, Smalls Jazz Club has been a haven for both emerging talents and established musicians since 1994.
+        Known for its nightly jam sessions, this club offers an authentic and cozy jazz experience.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.smallslive.com" target="_blank" class="lounge-link">smallslive.com</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/ronnie-scott.jpg" alt="Ronnie Scott's" class="lounge-img">
+      <h2>
+        <a href="https://www.ronniescotts.co.uk" target="_blank" class="lounge-link">Ronnie Scott's (London, UK)</a>
+      </h2>
+      <p>
+        Established in 1959, Ronnie Scott’s is one of the oldest and most iconic jazz clubs in the world. Hosting legends like Nina Simone,
+        Ella Fitzgerald, and contemporary stars, it remains a cornerstone of the London music scene.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.ronniescotts.co.uk" target="_blank" class="lounge-link">ronniescotts.co.uk</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/blue-note.jpg" alt="Blue Note" class="lounge-img">
+      <h2>
+        <a href="https://www.bluenotejazz.com" target="_blank" class="lounge-link">Blue Note (New York, USA)</a>
+      </h2>
+      <p>
+        Situated in Manhattan’s Greenwich Village, Blue Note is a global symbol of jazz culture. With its world-class performances,
+        it has featured names like Dizzy Gillespie, Chick Corea, and Tony Bennett, becoming a must-visit for jazz enthusiasts.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.bluenotejazz.com" target="_blank" class="lounge-link">bluenotejazz.com</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/village-vanguard.jpeg" alt="Village Vanguard" class="lounge-img">
+      <h2>
+        <a href="https://www.villagevanguard.com" target="_blank" class="lounge-link">The Village Vanguard (New York, USA)</a>
+      </h2>
+      <p>
+        Opened in 1935, The Village Vanguard is one of the oldest jazz clubs in New York. It has witnessed historic performances and recordings
+        by Bill Evans, John Coltrane, and more, cementing its place as a cultural institution.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.villagevanguard.com" target="_blank" class="lounge-link">villagevanguard.com</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/potato.jpg" alt="The Baked Potato" class="lounge-img">
+      <h2>
+        <a href="https://www.thebakedpotato.com" target="_blank" class="lounge-link">The Baked Potato (Los Angeles, USA)</a>
+      </h2>
+      <p>
+        Known for its quirky atmosphere and unforgettable live sessions, The Baked Potato has been a staple of LA’s jazz scene since 1970.
+        Its intimate space and high-energy performances make it unique.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://www.thebakedpotato.com" target="_blank" class="lounge-link">thebakedpotato.com</a>
+      </p>
+    </div>
+  
+    <div class="lounge">
+      <img src="images/jazz-cafe.jpg" alt="The Jazz Café" class="lounge-img">
+      <h2>
+        <a href="https://thejazzcafelondon.com" target="_blank" class="lounge-link">The Jazz Café (London, UK)</a>
+      </h2>
+      <p>
+        Located in Camden, The Jazz Café has become one of the UK’s most dynamic live music venues, blending traditional jazz with
+        funk, soul, and other genres. Its vibrant atmosphere attracts diverse audiences.
+      </p>
+      <p>
+        Visit their official website: 
+        <a href="https://thejazzcafelondon.com" target="_blank" class="lounge-link">thejazzcafelondon.com</a>
+      </p>
+    </div>
+  </div>
+  
+    <div class="form-container">
+      <h2>Vote for Your Favorite Lounge</h2>
+      <form id="voteForm">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+        <label for="lounge">Select your favorite jazz lounge:</label><br>
+        <select id="lounge" name="lounge" required>
+          <option value="" disabled selected>Select a lounge</option>
+          <option value="birdland">Birdland</option>
+          <option value="smalls">Smalls Jazz Club</option>
+          <option value="ronnie-scotts">Ronnie Scott's</option>
+          <option value="blue-note">Blue Note</option>
+          <option value="village-vanguard">The Village Vanguard</option>
+          <option value="baked-potato">The Baked Potato</option>
+          <option value="jazz-cafe">The Jazz Café</option>
+        </select><br><br>
+    
+        <label for="message">Why do you love this lounge?</label><br>
+        <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea><br><br>
+    
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>    
+  </div>
+</body>
+</html>
