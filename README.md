@@ -5,7 +5,7 @@ A simple front-end website showcasing jazz bars, jazz history, and the life of F
 
 Jazz Explorer is a lightweight HTML/CSS/JavaScript website designed to introduce users to the world of jazz. It highlights popular jazz bars, explains the foundations of jazz as a genre, and provides a biographical look at Frank Sinatra’s life and career.
 
-This project focuses on clean structure, simple styling, and easy readability—perfect for beginners or portfolio use.
+This project focuses on clean structure, simple styling, and easy readability.
 
 ---
 
