@@ -1,4 +1,4 @@
-# Jazz Explorer 🎷  
+# Jazz And Frank Sinatra 🎷  
 A simple front-end website showcasing jazz bars, jazz history, and the life of Frank Sinatra.
 
 ## Overview
